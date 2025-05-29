@@ -1,3 +1,70 @@
 body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background: grey;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+.desc {
+    color: rgba(34, 27, 27, 0.74);
+}
+.book-banner-desc{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.book-banner-btn{
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+.book-banner1{
+    
+    overflow: hidden !important;
+}
+
+.book-banner1 img {
+  width: 100% !important;
+  object-fit: cover !important;
+  transform: scale(1) translateZ(0);
+  transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+  
+} 
+
+.book-banner1:hover img {
+
+  transform: scale(1.1) translateZ(0);
+} 
+
+
+
+
+.btn-mt:hover {
+  background: #ffffff !important;
+  transition: .5s ease-in-out;
+}
+
+.book-banner-md{ 
+    overflow: hidden !important;
+}
+
+.book-banner-md img {
+  width: 100% !important;
+  object-fit: cover !important;
+  transform: scale(1) translateZ(0);
+  transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.book-banner-md:hover img {
+
+  transform: scale(1.1) translateZ(0);
+} 
+
+
+.btn-mt{
+    border: none !important;
+    font-size: 14px !important;
 }
